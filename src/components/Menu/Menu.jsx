@@ -3,7 +3,7 @@ import './menu.css';
 export const Menu = () => {
   return (
     <>
-      <section id="section1" className="menu rollout nav-closed">
+      <section id="menu" className="menu">
         <div className="container">
           <h2>Naše nabídka</h2>
           <p className="menu-intro">

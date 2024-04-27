@@ -3,7 +3,7 @@ import './gallery.css';
 export const Gallery = () => {
   return (
     <>
-      <section id="section2" className="gallery rollout nav-closed">
+      <section id="gallery" className="gallery">
         <div className="container">
           <div className="gallery__content">
             <h2>Nově otevřeno!</h2>
