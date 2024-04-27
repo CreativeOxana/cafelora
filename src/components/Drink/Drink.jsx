@@ -2,9 +2,6 @@ import { Layer } from '../Layer/Layer';
 import './drink.css';
 
 export const Drink = ({ id, name, image, layers, ordered }) => {
-  const handleOrderClick = () => {
-    console.log(`Objednán nápoj s ID: ${id}`);
-  };
   return (
     <div className="drink">
       <div className="drink__product">
@@ -22,7 +19,6 @@ export const Drink = ({ id, name, image, layers, ordered }) => {
         <input type="hidden" className="order-id" value="0" />
         <button
           className={ordered ? 'order-btn order-btn--ordered' : 'order-btn'}
-          onClick={handleOrderClick}
         >
           {ordered ? 'Zrušit' : 'Objednat'}
         </button>
